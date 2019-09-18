@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js{
+    height:100vh;
+    background: #000000;
+    transition-delay: 0.2s;
+}
+
+.bg {
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg #particles-js {
+    opacity: 1.6;
+    display: none;
+}
