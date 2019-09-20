@@ -46,12 +46,12 @@ ul{
     font-size: 20px;
     display: inline-block;
     padding: 0px 15px;
-    color: #fff;
+    color: #b3d9ff;
   }
   
   a{
     text-decoration: none;
-    color: #fff;
+    color: #b3d9ff;
   }
   
   .link{
@@ -65,7 +65,7 @@ ul{
     display: block;
     margin-top: 5px;
     right: 0;
-    background: #fff;
+    background: #b3d9ff;
     transition: width .2s ease;
     -webkit-transition: width .2s ease;
   }
@@ -73,5 +73,24 @@ ul{
   .link:hover:after{
     width: 100%;
     left: 0;
-    background: #fff;
+    background: #b3d9ff;
+  }
+
+  .github-corner:hover .octo-arm{
+    animation:octocat-wave 560ms ease-in-out
+  }
+  
+  @keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}
+  
+  @media (max-width:500px){
+    .github-corner:hover .octo-arm{animation:none}
+    .github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}
+  }
+
+  footer{
+    position: absolute;
+    bottom: 1em;
+    color: #b3d9ff;
+    opacity:0.5;
+    left: 1em;
   }
