@@ -46,12 +46,12 @@ ul{
     font-size: 20px;
     display: inline-block;
     padding: 0px 15px;
-    color: #b3d9ff;
+    color: #306EB5;
   }
   
   a{
     text-decoration: none;
-    color: #b3d9ff;
+    color: #306EB5;
   }
   
   .link{
@@ -65,7 +65,7 @@ ul{
     display: block;
     margin-top: 5px;
     right: 0;
-    background: #b3d9ff;
+    background: #306EB5;
     transition: width .2s ease;
     -webkit-transition: width .2s ease;
   }
@@ -73,7 +73,7 @@ ul{
   .link:hover:after{
     width: 100%;
     left: 0;
-    background: #b3d9ff;
+    background: #306EB5;
   }
 
   .github-corner:hover .octo-arm{
@@ -87,10 +87,38 @@ ul{
     .github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}
   }
 
+  .socials {
+    width: 40px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 20px;
+    border-radius: 20px;
+    mix-blend-mode: difference;
+    z-index: 20;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
   footer{
     position: absolute;
     bottom: 1em;
-    color: #b3d9ff;
+    color: #306EB5;
     opacity:0.5;
     left: 1em;
+  }
+
+  i:hover{
+    opacity: 0.65;
+  }
+
+  a img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 75px;
   }
