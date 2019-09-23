@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> j o a o.</title>
+        <link rel="stylesheet" href="loader.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./icon.ico"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <svg width="200" height="200" viewBox="0 0 100 100">
+            <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
+            <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
+            <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline>
+            <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline>
+        </svg>
+        <img src="icon.ico" class="logo-loader">
+    </body>
+</html>
+<script>
+    setTimeout(function(){
+        window.location.href = 'index.html';
+    }, 5000);
+</script>

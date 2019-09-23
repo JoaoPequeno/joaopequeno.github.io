@@ -9,9 +9,9 @@ body{
 #particles-js{
     display: block;
     height:100vh;
-    background: url(./img.jpg);
     background-repeat: no-repeat;
     transition-delay: 0.2s;
+    background: none;
     background-color: #151515;
     background-position: center;
 }
@@ -121,4 +121,23 @@ ul{
     left: 30px;
     top: 30px;
     width: 75px;
+  }
+
+  .about-txt{
+      position:absolute;
+      text-align: justify;
+      bottom: 45%;
+      margin-left: 50px;
+      margin-right:50px;
+      color:#fff;
+  }
+
+  .underline{
+    text-decoration: underline;
+    color:#306EB5;
+    cursor: default;
+  }
+
+  .underline img{
+      display: none;
   }
